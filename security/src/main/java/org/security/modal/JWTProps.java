@@ -28,28 +28,6 @@ public class JWTProps {
     @Value("${jwt.secretValue:secret}")
     private String secretValue;
 
-    @Value("${jwt.apiPath:/**}")
-    private String bearerApiPattern;
-
-    @Value("${jwt.jwtApiPattern:/token}")
-    private String jwtApiPattern;
-
-    public String getJwtApiPattern() {
-        return jwtApiPattern;
-    }
-
-    public void setJwtApiPattern(String jwtApiPattern) {
-        this.jwtApiPattern = jwtApiPattern;
-    }
-
-    public String getBearerApiPattern() {
-        return bearerApiPattern;
-    }
-
-    public void setBearerApiPattern(String bearerApiPattern) {
-        this.bearerApiPattern = bearerApiPattern;
-    }
-
     public String getSecretValue() {
         return secretValue;
     }
@@ -98,8 +76,6 @@ public class JWTProps {
                 ", roleName='" + roleName + '\'' +
                 ", algorithm='" + algorithm + '\'' +
                 ", secretValue='" + secretValue + '\'' +
-                ", bearerApiPattern='" + bearerApiPattern + '\'' +
-                ", jwtApiPattern='" + jwtApiPattern + '\'' +
                 '}';
     }
 }

@@ -60,7 +60,7 @@ public class JWTTokenService {
      *
      * @return Time representation 24 from now
      */
-    private long getExpiration(){
+    public long getExpiration(){
         return new Date().toInstant()
                 .plusSeconds(jwtProps.getExpirationSecond())
                 .toEpochMilli();

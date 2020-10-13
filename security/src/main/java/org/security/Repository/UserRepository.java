@@ -4,6 +4,7 @@ import javassist.NotFoundException;
 import org.example.product.modal.Role;
 import org.example.product.modal.User;
 import org.example.product.modal.UserRole;
+import org.security.modal.AuthenticationProps;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -31,6 +32,9 @@ public class UserRepository implements IUserRespository{
     @Autowired
     PasswordEncoder passwordEncoder;
 
+    @Autowired
+    AuthenticationProps authenticationProps;
+
     @Transactional
     public Mono<User> getUser(String userName) {
         logger.debug("Fetching user Data from DB");
@@ -54,14 +58,14 @@ public class UserRepository implements IUserRespository{
         user.setCredentialsNonExpired(true);
         user.setDeletedFalg(false);
         user.setEnabled(true);
-        user.setPassword(passwordEncoder.encode("password"));
+        user.setPassword(passwordEncoder.encode(authenticationProps.getDefaultPassword()));
         user.setUserCreationDate(new Date());
-        user.setUserName("user");
+        user.setUserName(authenticationProps.getDefaultUser());
         UserRole userRole = new UserRole();
         userRole.setUser(user);
         user.setUserRoleList(Collections.singletonList(userRole));
         Role role = new Role();
-        role.setRoleName("USER");
+        role.setRoleName(authenticationProps.getDefaultRole());
         userRole.setRole(role);
         role.setUserRole(userRole);
         entityManager.persist(user);
