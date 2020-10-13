@@ -1,9 +1,9 @@
-package org.example.utitlity.conf;
+package org.example.utility.conf;
 
 
 import com.zaxxer.hikari.HikariConfig;
 import com.zaxxer.hikari.HikariDataSource;
-import org.example.utitlity.modal.DBModalConfig;
+import org.example.utility.modal.DBModalConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
 import org.springframework.context.annotation.Bean;

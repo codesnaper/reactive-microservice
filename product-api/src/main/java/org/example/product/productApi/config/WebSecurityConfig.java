@@ -20,40 +20,40 @@ import java.util.Collections;
 @EnableReactiveMethodSecurity
 public class WebSecurityConfig {
 
-    @Bean
-    public SecurityWebFilterChain securitygWebFilterChain(
-            ServerHttpSecurity http) {
-
-        return http.authorizeExchange()
-                .pathMatchers("/actuator/**").permitAll()
-                .pathMatchers("/**").hasAuthority("ROLE_USER").anyExchange().authenticated()
-                .and()
-                .httpBasic()
-                .and()
-                .build();
-    }
-
-    public ReactiveAuthenticationManager  productAuthenticationManager() {
-        return authentication -> product(authentication)
-                .switchIfEmpty(Mono.error(new UsernameNotFoundException(authentication
-                        .getPrincipal()
-                        .toString())))
-                .map(b -> new UsernamePasswordAuthenticationToken(authentication.getPrincipal(),
-                                authentication.getCredentials(),
-                                Collections.singletonList(new SimpleGrantedAuthority("ROLE_USER"))
-                        )
-                );
-    }
-
-    public Mono<String> product(Authentication authentication) {
-        return Mono.justOrEmpty(authentication
-                .getPrincipal()
-                .toString());
-    }
-
-
-    public AuthenticationWebFilter authenticationWebFilter() {
-        return new AuthenticationWebFilter(productAuthenticationManager());
-    }
+//    @Bean
+//    public SecurityWebFilterChain securitygWebFilterChain(
+//            ServerHttpSecurity http) {
+//
+//        return http.authorizeExchange()
+//                .pathMatchers("/actuator/**").permitAll()
+//                .pathMatchers("/**").hasAuthority("ROLE_USER").anyExchange().authenticated()
+//                .and()
+//                .httpBasic()
+//                .and()
+//                .build();
+//    }
+////
+//    public ReactiveAuthenticationManager  productAuthenticationManager() {
+//        return authentication -> product(authentication)
+//                .switchIfEmpty(Mono.error(new UsernameNotFoundException(authentication
+//                        .getPrincipal()
+//                        .toString())))
+//                .map(b -> new UsernamePasswordAuthenticationToken(authentication.getPrincipal(),
+//                                authentication.getCredentials(),
+//                                Collections.singletonList(new SimpleGrantedAuthority("ROLE_USER"))
+//                        )
+//                );
+//    }
+//
+//    public Mono<String> product(Authentication authentication) {
+//        return Mono.justOrEmpty(authentication
+//                .getPrincipal()
+//                .toString());
+//    }
+//
+//
+//    public AuthenticationWebFilter authenticationWebFilter() {
+//        return new AuthenticationWebFilter(productAuthenticationManager());
+//    }
 
 }

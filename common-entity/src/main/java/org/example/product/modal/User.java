@@ -5,7 +5,9 @@ import org.hibernate.annotations.SQLDelete;
 import org.hibernate.annotations.Where;
 
 import javax.persistence.*;
+import java.util.ArrayList;
 import java.util.Date;
+import java.util.List;
 
 @Entity
 @Table(name = "ex_product_user")
@@ -27,9 +29,6 @@ public class User {
     @Column( name = "password",nullable = false)
     private String password;
 
-    @Column( name = "authorities",nullable = false)
-    private String role;
-
     @Column( name = "accountNonExpired",nullable = false)
     private Boolean accountNonExpired;
 
@@ -49,22 +48,8 @@ public class User {
     @CreationTimestamp
     private Date userCreationDate;
 
-
-    @Override
-    public String toString() {
-        return "MineUser{" +
-                "id=" + id +
-                ", userName='" + userName + '\'' +
-                ", password='" + password + '\'' +
-                ", role='" + role + '\'' +
-                ", accountNonExpired=" + accountNonExpired +
-                ", accountNonLocked=" + accountNonLocked +
-                ", credentialsNonExpired=" + credentialsNonExpired +
-                ", enabled=" + enabled +
-                ", deletedFalg=" + deletedFalg +
-                ", userCreationDate=" + userCreationDate +
-                '}';
-    }
+    @OneToMany(mappedBy = "user",cascade = {CascadeType.PERSIST,CascadeType.REMOVE})
+    private List<UserRole> userRoleList  = new ArrayList<>();
 
     public int getId() {
         return id;
@@ -88,14 +73,6 @@ public class User {
 
     public void setPassword(String password) {
         this.password = password;
-    }
-
-    public String getRole() {
-        return role;
-    }
-
-    public void setRole(String role) {
-        this.role = role;
     }
 
     public Boolean getAccountNonExpired() {
@@ -144,5 +121,13 @@ public class User {
 
     public void setUserCreationDate(Date userCreationDate) {
         this.userCreationDate = userCreationDate;
+    }
+
+    public List<UserRole> getUserRoleList() {
+        return userRoleList;
+    }
+
+    public void setUserRoleList(List<UserRole> userRoleList) {
+        this.userRoleList = userRoleList;
     }
 }

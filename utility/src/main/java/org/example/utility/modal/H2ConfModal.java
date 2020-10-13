@@ -1,4 +1,4 @@
-package org.example.utitlity.modal;
+package org.example.utility.modal;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnProperty;

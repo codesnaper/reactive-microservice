@@ -1,6 +1,6 @@
-package org.example.utitlity.conf;//package org.example.product.productApi.config;
+package org.example.utility.conf;
 
-import org.example.utitlity.modal.H2ConfModal;
+import org.example.utility.modal.H2ConfModal;
 import org.h2.tools.Server;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.condition.ConditionalOnBean;
