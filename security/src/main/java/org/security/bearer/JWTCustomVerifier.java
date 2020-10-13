@@ -17,6 +17,7 @@ import java.time.Instant;
 import java.util.Date;
 import java.util.function.Predicate;
 
+@SuppressWarnings("JavaDoc")
 @Component
 @ConditionalOnBean(JWTProps.class)
 /**
