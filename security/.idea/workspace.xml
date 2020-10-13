@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="41f53343-0c35-4756-945e-066aafb0faca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/org/example/product/productApi/Application.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product-api/src/main/java/org/example/product/productApi/config/WebSecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../product/product.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../product-interfaces/common-entity.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/Microservice-SringCloud.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/Microservice-SringCloud.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/codeStyles/Project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/codeStyles/Project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__antlr_antlr_2_7_7.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__com_fasterxml_classmate_1_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__com_sun_activation_jakarta_activation_1_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_11.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__com_zaxxer_HikariCP_3_4_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__io_projectreactor_reactor_test_3_3_10_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_dom4j_dom4j_2_1_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_21_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_jboss_jandex_2_1_3_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_4_1_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_jdbc_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_3_4_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_springframework_spring_aspects_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_springframework_spring_jdbc_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_springframework_spring_orm_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/libraries/Maven__org_springframework_spring_tx_5_2_9_RELEASE.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../common-entity/common-entity.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../../common-entity/common-entity.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../common-entity/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../common-entity/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../common-entity/src/main/java/com/example/modal/BO/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../common-entity/src/main/java/com/example/modal/BO/Product.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../product-composite-api/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../product-composite-api/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../product-composite-api/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../product-composite-api/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../product-composite-api/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../product-composite-api/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../product-composite-api/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../product-composite-api/src/main/java/com/example/product/Controller/IProductComposite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../product-composite-api/src/main/java/com/example/product/Controller/IRating.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../product-composite-api/src/main/java/com/example/product/Controller/IUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../product-composite-api/src/main/java/com/example/product/ControllerImpl/ProductComposite.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../product-composite-api/src/main/java/com/example/product/ProductApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../product-composite-api/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../product-composite-api/src/test/java/com/example/product/ProductApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../util/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../util/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="D:\Workspace\Microservice-SringCloud\Microservices\security\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1im4L0S8AQPc6QrtfPquAxyZFe3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="41f53343-0c35-4756-945e-066aafb0faca" name="Default Changelist" comment="" />
+      <created>1602499374285</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602499374285</updated>
+    </task>
+    <servers />
+  </component>
+</project>
