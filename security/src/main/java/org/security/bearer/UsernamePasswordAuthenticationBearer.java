@@ -15,6 +15,7 @@ import java.util.stream.Stream;
 
 @Component
 @ConditionalOnProperty(prefix = "authentication", name = "jwt", havingValue = "true")
+// TODO: Need to check roles for creating authorities
 public class UsernamePasswordAuthenticationBearer {
     public Mono<Authentication> create(SignedJWT signedJWTMono) {
         SignedJWT signedJWT = signedJWTMono;
