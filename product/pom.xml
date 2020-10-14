@@ -35,7 +35,11 @@
                 <artifactId>springfox-swagger2</artifactId>
                 <version>3.0.0</version>
             </dependency>
-
+            <dependency>
+                <groupId>com.amazonaws</groupId>
+                <artifactId>aws-java-sdk</artifactId>
+                <version>${aws.sdk}</version>
+            </dependency>
             <dependency>
                 <groupId>io.springfox</groupId>
                 <artifactId>springfox-swagger-ui</artifactId>
@@ -102,6 +106,7 @@
         <product.interface.version>1.0-SNAPSHOT</product.interface.version>
         <security.version>1.0-SNAPSHOT</security.version>
         <spring-cloud-dependencies.version>Hoxton.SR4</spring-cloud-dependencies.version>
+        <aws.sdk>1.11.232</aws.sdk>
     </properties>
 
 

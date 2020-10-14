@@ -11,7 +11,7 @@ import reactor.core.publisher.Mono;
  */
 public class AuthorizationHeaderPayload {
 
-    private static Logger logger = LoggerFactory.getLogger(this.getClass().getName());
+    private static Logger logger = LoggerFactory.getLogger(AuthorizationHeaderPayload.class.getClass().getName());
 
     /**
      * it extract the authorization header from http request
